@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+
+    display: grid;
+    grid-template-areas: 'daniel daniel jonathan kira'
+        'jeanette patrick patrick kira';
+    gap: 1rem;
+    grid-template-columns: 14rem 17rem 10rem 14rem;
+    background-color: rgb(234, 245, 249);
+    padding-left: 5rem;
+    padding-bottom: 20px;
+    max-width: 980px;
+
+    margin: 0 auto;
+    margin-top: 10rem;
+
+}
+
+.container>div {
+    border-radius: .5rem;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.i1 {
+    grid-area: daniel;
+}
+
+.i2 {
+    grid-area: jonathan;
+}
+
+.i3 {
+    grid-area: kira;
+}
+
+.i4 {
+    grid-area: jeanette;
+}
+
+.i5 {
+    grid-area: patrick;
+}
+
+body {
+    background-color: rgb(234, 245, 249);
+}
+
+h5 {
+    padding-top: 7px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.i1 {
+    background-color: rgb(108, 34, 200);
+    color: white;
+}
+
+.i2 {
+    background-color: rgb(47, 44, 44);
+    color: rgb(255, 255, 255);
+}
+
+.i3 {
+    background-color: white;
+}
+
+.i3>p,
+.i4>p {
+    color: rgb(124, 123, 123);
+}
+
+.i4 {
+    background-color: white;
+}
+
+.i5 {
+    background-color: rgb(6, 6, 42);
+    color: white;
+}
+
+.item1head {
+    width: 140px;
+    height: 35px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.item1head>p {
+    color: rgb(172, 172, 172);
+}
+
+.item1head img {
+    float: left;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+
+}
